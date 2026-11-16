@@ -1,0 +1,18 @@
+{
+  "name": "obscura-vm",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "apps": "0.0.1-beta.138"
+  },
+  "scripts": {
+    "test": "node --test cli.test.mjs",
+    "self-test": "node ./cli.mjs --self-test"
+  },
+  "bin": {
+    "obscura": "./cli.mjs"
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  }
+}
